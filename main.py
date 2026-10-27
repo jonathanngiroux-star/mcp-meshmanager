@@ -60,7 +60,7 @@ TOOLS = [
             "properties": {
                 "mesh_id": {"type": "string", "description": "Mesh network identifier"},
                 "peer_id": {"type": "string", "description": "Peer identifier"},
-                "generate_new": {"type": "boolean", "default": true, "description": "Generate new key pair"}
+                "generate_new": {"type": "boolean", "default": True, "description": "Generate new key pair"}
             },
             "required": ["mesh_id", "peer_id"]
         }
